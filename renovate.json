@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "qlik-oss",
+    "docker:disable"
+  ],
+  "semanticCommits": true,
+  "rangeStrategy": "bump",
+  "packageRules": [{
+    "depTypeList": [
+      "engines"
+    ],
+    "enabled": false
+  }, {
+    "packageNames": ["rollup"],
+    "enabled": false
+  }]
+}
